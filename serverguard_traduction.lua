@@ -10,7 +10,7 @@ serverguard.phrase:AddTable({
 		-- Command phrases.
 		command_ban_invalid_duration = {SERVERGUARD.NOTIFY.RED, "You've entered an invalid duration! Try entering a number, or format it with duration identifiers. For example: 1w2d12h"},
 		command_ban_exceed_banlimit = {SERVERGUARD.NOTIFY.RED, "You've entered a length that exceeds your rank's maximum allowed ban length. Try entering a lower number than %s!"},
-		command_ban_cannot_permaban = {SERVERGUARD.NOTIFY.RED, "You do not have permission to ban permanently!"},
+		command_ban_cannot_permaban = {SERVERGUARD.NOTIFY.RED, "Vous n'avez pas les permissions d'effectuer des bannissements permanents!"},
 		command_ban_clamped_duration = {SERVERGUARD.NOTIFY.RED, "One or more of your durations have been clamped to 99 - duration lengths cannot be over 99."},
 		command_ban = {SERVERGUARD.NOTIFY.GREEN, "%s", SERVERGUARD.NOTIFY.WHITE, " has banned ", SERVERGUARD.NOTIFY.RED, "%s", SERVERGUARD.NOTIFY.WHITE, " for ", SERVERGUARD.NOTIFY.RED, "%s", SERVERGUARD.NOTIFY.WHITE, ". Reason: %s"},
 		command_ban_perma = {SERVERGUARD.NOTIFY.GREEN, "%s", SERVERGUARD.NOTIFY.WHITE, " has banned ", SERVERGUARD.NOTIFY.RED, "%s", SERVERGUARD.NOTIFY.WHITE, ",", SERVERGUARD.NOTIFY.RED, " permanently", SERVERGUARD.NOTIFY.WHITE, ". Reason: %s"},
