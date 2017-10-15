@@ -2,7 +2,7 @@ serverguard.phrase:AddTable({
 	english = {
 		player_cant_find_suitable = {SERVERGUARD.NOTIFY.RED, "Couldn't find any suitable players!"},
 		player_found_multiple = {SERVERGUARD.NOTIFY.RED, "Found more than one player with the identifier \"%s\"!"},
-		player_higher_immunity = {SERVERGUARD.NOTIFY.RED, "This player has a higher immunity than you."},
+		player_higher_immunity = {SERVERGUARD.NOTIFY.RED, "Vous ne pouvez pas éxécuter cette action sur cette personne."},
 		cant_find_location = {SERVERGUARD.NOTIFY.RED, "Couldn't find a suitable location."},
 		cant_find_player_with_identifier = {SERVERGUARD.NOTIFY.RED, "Can't find any player with that identifier."},
 		restricted = {SERVERGUARD.NOTIFY.RED, "You are restricted and unable to use this feature for %s."},
@@ -21,7 +21,7 @@ serverguard.phrase:AddTable({
 		command_rank = {SERVERGUARD.NOTIFY.GREEN, "%s", SERVERGUARD.NOTIFY.WHITE, " has set ", SERVERGUARD.NOTIFY.RED, "%s", SERVERGUARD.NOTIFY.WHITE, "%s rank to ", SERVERGUARD.NOTIFY.GREEN, "%s", SERVERGUARD.NOTIFY.WHITE, ". Length: ", SERVERGUARD.NOTIFY.RED, "%s."},
 		command_rank_invalid_immunity = {SERVERGUARD.NOTIFY.RED, "The rank you are trying to set has a higher immunity than yours."},
 		command_rank_invalid_unique = {SERVERGUARD.NOTIFY.RED, "No rank with the '%s' unique identifier exists."},
-		command_rank_valid_list = {SERVERGUARD.NOTIFY.RED, "Here are some valid ranks: %s"},
+		command_rank_valid_list = {SERVERGUARD.NOTIFY.RED, "Voici tous les rangs valides: %s"},
 		command_rank_cannot_set_own = {SERVERGUARD.NOTIFY.RED, "You can't set your own rank in-game. Use \"serverguard_setrank <player>\" in your server console."},
 
 		command_goto = {SERVERGUARD.NOTIFY.GREEN, "%s", SERVERGUARD.NOTIFY.WHITE, " has teleported to ", SERVERGUARD.NOTIFY.RED, "%s", SERVERGUARD.NOTIFY.WHITE, "."},
